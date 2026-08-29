@@ -1,6 +1,5 @@
 # CV PDF
 
-Placez ici votre fichier CV au format PDF, nommé exactement `cv.pdf`.
+Le CV public est stocké sous le nom `CV-HoussemEddineLassoued-2026.pdf`.
 
-Le lien "Télécharger mon CV" du site pointe vers `assets/cv/cv.pdf`.
-Ce fichier reste local et n'est pas publié avec le site GitHub Pages.
+Les boutons de la page CV pointent vers ce fichier. Il est explicitement autorisé par `.gitignore` afin d'être publié sur GitHub Pages.

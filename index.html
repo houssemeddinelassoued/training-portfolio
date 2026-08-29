@@ -11,6 +11,10 @@
   <header class="site-header">
     <div class="container header-inner">
       <a href="#accueil" class="logo">Houssem Eddine<span>.</span>Lassoued</a>
+      <button class="sidebar-menu-toggle" id="sidebarMenuToggle" type="button" aria-label="Ouvrir la liste des formations" aria-expanded="false" aria-controls="formationsSidebar">
+        <span aria-hidden="true">☰</span>
+        <span>Formations</span>
+      </button>
       <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="primaryNav">
         <span></span><span></span><span></span>
       </button>
@@ -66,12 +70,102 @@
       </div>
     </section>
 
+    <!-- ===================== SIDEBAR ACCÈS RAPIDE ===================== -->
+    <aside class="formations-sidebar" id="formationsSidebar" aria-label="Liste des formations">
+      <div class="sidebar-header">
+        <h2>Liste de formations</h2>
+        <button class="sidebar-toggle" id="sidebarToggle" type="button" aria-label="Fermer la liste des formations">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <nav class="sidebar-nav" id="sidebarNav" aria-label="Index des formations">
+        <div class="sidebar-section">
+          <h3>Intelligence Artificielle</h3>
+          <ul>
+            <li><a href="#ia-booster-performances"><code>IA-01</code> Booster ses Performances</a></li>
+            <li><a href="#ia-code-assiste"><code>IA-02</code> Code Assisté</a></li>
+            <li><a href="#vibe-coding"><code>IA-03</code> Vibe Coding</a></li>
+            <li><a href="#ia-prompt-engineering"><code>IA-04</code> Prompt Engineering</a></li>
+            <li><a href="#claude-code-developpeurs"><code>IA-05</code> Claude Code</a></li>
+            <li><a href="#github-copilot-debutant"><code>IA-06</code> GitHub Copilot — Débutant</a></li>
+            <li><a href="#github-copilot-avance"><code>IA-07</code> GitHub Copilot — Avancé</a></li>
+            <li><a href="#copilot-agentic-workflows"><code>IA-08</code> Copilot Agentic Workflows</a></li>
+            <li><a href="#accompagner-integration-ia"><code>IA-09</code> Accompagner l'Intégration IA</a></li>
+            <li><a href="#chatgpt-prise-en-main"><code>IA-10</code> ChatGPT</a></li>
+            <li><a href="#ia-generative-managers"><code>IA-11</code> IA pour Managers</a></li>
+            <li><a href="#ia-product-owner"><code>IA-12</code> IA pour Product Owner</a></li>
+            <li><a href="#ia-gestion-projet"><code>IA-13</code> IA &amp; Gestion de Projet</a></li>
+            <li><a href="#ia-ressources-humaines"><code>IA-14</code> IA &amp; Ressources Humaines</a></li>
+            <li><a href="#ia-communication-marketing"><code>IA-15</code> IA &amp; Communication &amp; Marketing</a></li>
+          </ul>
+        </div>
+        <div class="sidebar-section">
+          <h3>Développement</h3>
+          <ul>
+            <li><a href="#programmation-objet"><code>DEV-01</code> Programmation Objet</a></li>
+            <li><a href="#uml"><code>DEV-02</code> UML 2</a></li>
+            <li><a href="#java-fondamentaux"><code>JAVA-01</code> Java — Fondamentaux</a></li>
+            <li><a href="#java-avance"><code>JAVA-02</code> Java — Avancé</a></li>
+            <li><a href="#java-8"><code>JAVA-03</code> Java 8</a></li>
+            <li><a href="#java-11-17"><code>JAVA-04</code> Java 11 &amp; 17</a></li>
+            <li><a href="#junit"><code>JAVA-05</code> JUnit</a></li>
+            <li><a href="#javafx"><code>JAVA-06</code> JavaFX</a></li>
+          </ul>
+        </div>
+        <div class="sidebar-section">
+          <h3>Bases de Données</h3>
+          <ul>
+            <li><a href="#bases-donnees"><code>DB-01</code> Bases de Données</a></li>
+            <li><a href="#sql"><code>DB-02</code> Maîtriser SQL</a></li>
+          </ul>
+        </div>
+        <div class="sidebar-section">
+          <h3>Certifications</h3>
+          <ul>
+            <li><a href="#certification-java-8-niveau-1"><code>CERT-01</code> Java 8 Niveau 1</a></li>
+            <li><a href="#certification-java-8-niveau-2"><code>CERT-02</code> Java 8 Niveau 2</a></li>
+            <li><a href="#certification-java-11-partie-1"><code>CERT-03</code> Java 11 — Partie 1</a></li>
+            <li><a href="#certification-java-11-partie-2"><code>CERT-04</code> Java 11 — Partie 2</a></li>
+          </ul>
+        </div>
+        <div class="sidebar-section">
+          <h3>Qualité &amp; Outils</h3>
+          <ul>
+            <li><a href="#tdd"><code>QA-01</code> Test Driven Development</a></li>
+            <li><a href="#git"><code>QA-02</code> Git</a></li>
+          </ul>
+        </div>
+        <div class="sidebar-section">
+          <h3>Design</h3>
+          <ul>
+            <li><a href="#figma"><code>DESIGN-01</code> Figma — Fondamentaux</a></li>
+            <li><a href="#figma-perfectionnement"><code>DESIGN-02</code> Figma — Perfectionnement</a></li>
+            <li><a href="#photoshop"><code>DESIGN-03</code> Photoshop</a></li>
+          </ul>
+        </div>
+        <div class="sidebar-section">
+          <h3>Systèmes</h3>
+          <ul>
+            <li><a href="#langage-c"><code>SYST-01</code> Programmation C</a></li>
+            <li><a href="#cpp"><code>SYST-02</code> Programmation C++</a></li>
+          </ul>
+        </div>
+        <div class="sidebar-section">
+          <h3>Culture IT</h3>
+          <ul>
+            <li><a href="#panorama-technologies-informatiques"><code>CULT-01</code> Panorama IT</a></li>
+          </ul>
+        </div>
+      </nav>
+    </aside>
+    <button class="sidebar-backdrop" id="sidebarBackdrop" type="button" aria-label="Fermer la liste des formations" tabindex="-1"></button>
+
     <!-- ===================== CONCEPTION & MODÉLISATION ===================== -->
     <h2 id="cat-conception" class="category-title container">Conception &amp; Modélisation</h2>
 
     <section id="programmation-objet" class="training">
       <div class="container">
-        <h3>Conception et Programmation Objet</h3>
+        <h3><code class="training-code">DEV-01</code> Conception et Programmation Objet</h3>
         <p class="training-meta"><span>Durée : 3 jours</span> · <span>Niveau : Fondamental</span></p>
         <p>Comprendre l'intérêt et les possibilités offertes par le développement objet par rapport à une approche fonctionnelle. Les participants apprennent à concevoir un modèle de classes pertinent, à respecter les bonnes pratiques de conception (Design Patterns) et à traduire leur travail sous forme de diagramme de classes UML, avec une ouverture sur l'apport de l'IA dans la conception objet.</p>
         <ul class="training-objectives">
@@ -86,7 +180,7 @@
 
     <section id="uml" class="training">
       <div class="container">
-        <h3>UML 2 — Analyse et Conception</h3>
+        <h3><code class="training-code">DEV-02</code> UML 2 — Analyse et Conception</h3>
         <p class="training-meta"><span>Durée : 4 jours</span> · <span>Niveau : Fondamental</span></p>
         <p>Le langage de modélisation unifié UML propose un langage visuel commun et normalisé pour décrire un système logiciel, principalement en conception orientée objet. Cette formation permet de comprendre et d'utiliser les diagrammes UML les plus pertinents à toutes les étapes d'un projet de développement.</p>
         <ul class="training-objectives">
@@ -104,7 +198,7 @@
 
     <section id="bases-donnees" class="training">
       <div class="container">
-        <h3>Bases de Données Relationnelles : Conception et Modélisation</h3>
+        <h3><code class="training-code">DB-01</code> Bases de Données Relationnelles : Conception et Modélisation</h3>
         <p class="training-meta"><span>Durée : 4 jours</span> · <span>Niveau : Fondamental</span></p>
         <p>Une synthèse complète des connaissances indispensables en matière de bases de données, du processus de conception à son utilisation effective, avec de nombreux travaux pratiques permettant de manipuler chacun des concepts importants.</p>
         <ul class="training-objectives">
@@ -119,7 +213,7 @@
 
     <section id="sql" class="training">
       <div class="container">
-        <h3>Maîtriser le SQL</h3>
+        <h3><code class="training-code">DB-02</code> Maîtriser le SQL</h3>
         <p class="training-meta"><span>Durée : 5 jours</span> · <span>Niveau : Fondamental</span></p>
         <p>Le langage SQL est incontournable pour interroger et mettre à jour les bases de données. Cette formation explique la structure générale d'un SGBDR et la philosophie du langage afin d'écrire des requêtes simples ou complexes avec naturel, y compris jointures externes et sous-requêtes corrélées.</p>
         <ul class="training-objectives">
@@ -137,7 +231,7 @@
 
     <section id="java-fondamentaux" class="training">
       <div class="container">
-        <h3>Java, les Fondamentaux</h3>
+        <h3><code class="training-code">JAVA-01</code> Java, les Fondamentaux</h3>
         <p class="training-meta"><span>Durée : 5 jours</span> · <span>Niveau : Fondamental</span></p>
         <p>Le langage Java est au cœur des applications d'entreprise. Cette formation fait acquérir de solides bases sur le langage et initie progressivement aux API cœurs incontournables (collections, I/O, JDBC, Streams) à travers une application fil rouge.</p>
         <ul class="training-objectives">
@@ -152,7 +246,7 @@
 
     <section id="java-avance" class="training">
       <div class="container">
-        <h3>Java Avancé, Perfectionnement</h3>
+        <h3><code class="training-code">JAVA-02</code> Java Avancé, Perfectionnement</h3>
         <p class="training-meta"><span>Durée : 4 jours</span> · <span>Niveau : Avancé</span></p>
         <p>Permet d'approfondir ses connaissances du langage pour intégrer directement une équipe projet : fonctionnement de la JVM, applications multi-threadées, manipulation de données (JDBC, NIO.2, Streams) et industrialisation avec Gradle ou Maven.</p>
         <ul class="training-objectives">
@@ -167,7 +261,7 @@
 
     <section id="java-8" class="training">
       <div class="container">
-        <h3>Java 8 : Nouveautés de Java 8</h3>
+        <h3><code class="training-code">JAVA-03</code> Java 8 : Nouveautés de Java 8</h3>
         <p class="training-meta"><span>Durée : 2 jours</span> · <span>Niveau : Fondamental</span></p>
         <p>Java 8 a apporté des améliorations significatives au langage. Cette formation présente les expressions lambda, la programmation fonctionnelle et les nouvelles API introduites par cette version majeure.</p>
         <ul class="training-objectives">
@@ -182,7 +276,7 @@
 
     <section id="java-11-17" class="training">
       <div class="container">
-        <h3>Nouveautés de Java 11 et Java 17</h3>
+        <h3><code class="training-code">JAVA-04</code> Nouveautés de Java 11 et Java 17</h3>
         <p class="training-meta"><span>Durée : 2 jours</span> · <span>Niveau : Fondamental</span></p>
         <p>Java 11 et Java 17 sont des versions LTS (Long Term Support) utilisables en production. Cette formation présente, version après version, les nouveautés apportées jusqu'à ces dernières versions LTS (modularité, records, classes scellées, etc.).</p>
         <ul class="training-objectives">
@@ -197,7 +291,7 @@
 
     <section id="junit" class="training">
       <div class="container">
-        <h3>Le Framework JUnit</h3>
+        <h3><code class="training-code">JAVA-05</code> Le Framework JUnit</h3>
         <p class="training-meta"><span>Durée : 2 jours</span> · <span>Niveau : Intermédiaire</span></p>
         <p>JUnit est le standard de facto pour l'implémentation des tests unitaires et d'intégration des applications Java. Cette formation très pratique permet de maîtriser le framework et d'adopter une méthodologie Test Driven Development.</p>
         <ul class="training-objectives">
@@ -212,7 +306,7 @@
 
     <section id="javafx" class="training">
       <div class="container">
-        <h3>JavaFX : Développer des Applications Graphiques Riches</h3>
+        <h3><code class="training-code">JAVA-06</code> JavaFX : Développer des Applications Graphiques Riches</h3>
         <p class="training-meta"><span>Durée : 3 jours</span> · <span>Niveau : Intermédiaire</span></p>
         <p>JavaFX est le successeur officiel de Swing et permet de développer des clients riches en simplifiant leur développement grâce au langage FXML et à l'outil SceneBuilder.</p>
         <ul class="training-objectives">
@@ -230,7 +324,7 @@
 
     <section id="certification-java-8-niveau-1" class="training">
       <div class="container">
-        <h3>Certification Java 8 Niveau 1 — Certified Associate Java SE 8 Programmer</h3>
+        <h3><code class="training-code">CERT-01</code> Certification Java 8 Niveau 1 — Certified Associate Java SE 8 Programmer</h3>
         <p class="training-meta"><span>Durée : 3 jours</span> · <span>Niveau : Intermédiaire</span></p>
         <p>Préparation à la certification officielle Oracle Certified Associate, Java SE 8 Programmer, destinée aux développeurs souhaitant valider leurs compétences fondamentales en Java 8.</p>
         <ul class="training-objectives">
@@ -245,7 +339,7 @@
 
     <section id="certification-java-8-niveau-2" class="training">
       <div class="container">
-        <h3>Certification Java 8 Niveau 2 — Certified Professional, Java SE 8 Programmer</h3>
+        <h3><code class="training-code">CERT-02</code> Certification Java 8 Niveau 2 — Certified Professional, Java SE 8 Programmer</h3>
         <p class="training-meta"><span>Durée : 2 jours</span> · <span>Niveau : Avancé</span></p>
         <p>Préparation à la certification Oracle Certified Professional, Java SE 8 Programmer, pour les développeurs ayant déjà validé le niveau associé et souhaitant approfondir leur expertise.</p>
         <ul class="training-objectives">
@@ -260,7 +354,7 @@
 
     <section id="certification-java-11-partie-1" class="training">
       <div class="container">
-        <h3>Certification Java 11 — Certified Professional Java SE 11 Developer (Partie 1)</h3>
+        <h3><code class="training-code">CERT-03</code> Certification Java 11 — Certified Professional Java SE 11 Developer (Partie 1)</h3>
         <p class="training-meta"><span>Durée : 4 jours</span> · <span>Niveau : Intermédiaire</span></p>
         <p>Ce cours a pour but de préparer à la certification officielle Oracle Certified Professional, Java SE 11 Developer (1Z0-819), pour les développeurs ayant déjà de bonnes bases en Java.</p>
         <ul class="training-objectives">
@@ -275,7 +369,7 @@
 
     <section id="certification-java-11-partie-2" class="training">
       <div class="container">
-        <h3>Certification Java 11 — Certified Professional Java SE 11 Developer (Partie 2)</h3>
+        <h3><code class="training-code">CERT-04</code> Certification Java 11 — Certified Professional Java SE 11 Developer (Partie 2)</h3>
         <p class="training-meta"><span>Durée : 4 jours</span> · <span>Niveau : Intermédiaire</span></p>
         <p>Suite de la préparation à la certification Oracle Certified Professional, Java SE 11 Developer (1Z0-819), couvrant les thématiques complémentaires nécessaires à l'obtention de la certification complète.</p>
         <ul class="training-objectives">
@@ -293,7 +387,7 @@
 
     <section id="tdd" class="training">
       <div class="container">
-        <h3>Optimiser la Qualité du Développement avec Test Driven Development</h3>
+        <h3><code class="training-code">QA-01</code> Optimiser la Qualité du Développement avec Test Driven Development</h3>
         <p class="training-meta"><span>Durée : 3 jours</span> · <span>Niveau : Fondamental</span></p>
         <p>Le Test Driven Development (TDD) est une technique de programmation simple, élégante et efficace, basée sur un cycle court : écrire un test, le faire passer, refactorer le code. Elle combine la sécurité des tests automatisés à l'avantage d'une conception modulaire et lisible.</p>
         <ul class="training-objectives">
@@ -308,7 +402,7 @@
 
     <section id="git" class="training">
       <div class="container">
-        <h3>GIT : Gestion des Sources avec GIT</h3>
+        <h3><code class="training-code">QA-02</code> GIT : Gestion des Sources avec GIT</h3>
         <p class="training-meta"><span>Durée : 2 jours</span> · <span>Niveau : Fondamental</span></p>
         <p>Git est un système de contrôle de versions distribué conçu pour traiter aussi bien de petits que de très gros projets, avec rapidité et efficacité. Cette formation permet de configurer et utiliser Git au quotidien et de choisir un workflow de collaboration adapté à son équipe.</p>
         <ul class="training-objectives">
@@ -326,7 +420,7 @@
 
     <section id="figma" class="training">
       <div class="container">
-        <h3>Figma : Concevoir des Maquettes UX/UI</h3>
+        <h3><code class="training-code">DESIGN-01</code> Figma : Concevoir des Maquettes UX/UI</h3>
         <p class="training-meta"><span>Durée : 2 jours</span> · <span>Niveau : Fondamental</span></p>
         <p>Figma se distingue par la capacité de travailler en équipe sur des projets grâce à des modifications en temps réel via un navigateur web. Cette formation permet d'identifier et d'utiliser les différents outils proposés par Figma en toute autonomie.</p>
         <ul class="training-objectives">
@@ -341,7 +435,7 @@
 
     <section id="figma-perfectionnement" class="training">
       <div class="container">
-        <h3>Figma Perfectionnement : Optimiser son Workflow</h3>
+        <h3><code class="training-code">DESIGN-02</code> Figma Perfectionnement : Optimiser son Workflow</h3>
         <p class="training-meta"><span>Durée : 2 jours</span> · <span>Niveau : Intermédiaire</span></p>
         <p>Cette formation rend les participants autonomes dans la création, la structuration et l'optimisation d'un design system dans Figma : composants avancés, variants, variables, prototypes complexes et Dev Mode pour le partage avec les développeurs.</p>
         <ul class="training-objectives">
@@ -356,7 +450,7 @@
 
     <section id="photoshop" class="training">
       <div class="container">
-        <h3>Photoshop : Retouche d'Images et Objets</h3>
+        <h3><code class="training-code">DESIGN-03</code> Photoshop : Retouche d'Images et Objets</h3>
         <p class="training-meta"><span>Durée : 3 jours</span> · <span>Niveau : Fondamental</span></p>
         <p>Cette formation fournit les concepts et méthodes pour une utilisation efficace d'Adobe Photoshop au quotidien, avec une expérience pratique des techniques de base pour la retouche d'images.</p>
         <ul class="training-objectives">
@@ -374,7 +468,7 @@
 
     <section id="langage-c" class="training">
       <div class="container">
-        <h3>Programmation en C</h3>
+        <h3><code class="training-code">SYST-01</code> Programmation en C</h3>
         <p class="training-meta"><span>Durée : 5 jours</span> · <span>Niveau : Intermédiaire</span></p>
         <p>Le langage C reste très utilisé aujourd'hui, notamment dans l'embarqué (système dédié, IoT, drivers). Cette formation permet d'écrire des programmes robustes, portables et conformes à la norme ANSI, tout en donnant de bonnes bases en sécurité du développement.</p>
         <ul class="training-objectives">
@@ -389,7 +483,7 @@
 
     <section id="cpp" class="training">
       <div class="container">
-        <h3>C++ : Programmation Objet en C++</h3>
+        <h3><code class="training-code">SYST-02</code> C++ : Programmation Objet en C++</h3>
         <p class="training-meta"><span>Durée : 5 jours</span> · <span>Niveau : Intermédiaire</span></p>
         <p>Le langage C++ a apporté au langage C la dimension objet tout en capitalisant sur ses performances (typage fort, surcharge de fonctions, programmation générique, STL). Cette formation permet de produire un code de qualité respectant les bonnes pratiques professionnelles.</p>
         <ul class="training-objectives">
@@ -407,7 +501,7 @@
 
     <section id="panorama-technologies-informatiques" class="training">
       <div class="container">
-        <h3>Panorama des Technologies Informatiques</h3>
+        <h3><code class="training-code">CULT-01</code> Panorama des Technologies Informatiques</h3>
         <p class="training-meta"><span>Durée : 4 jours (4 modules d'1 jour)</span> · <span>Niveau : Fondamental</span></p>
         <p>Un séminaire complet, actualisé, concret et accessible qui permet de dialoguer avec les experts de chaque domaine sans déléguer les échanges dès que le niveau technique s'élève, en abordant successivement le matériel et les systèmes d'exploitation, les réseaux/le web/la sécurité, le développement logiciel et les bases de données, puis le développement web et mobile.</p>
         <ul class="training-objectives">
@@ -425,7 +519,7 @@
 
     <section id="ia-booster-performances" class="training">
       <div class="container">
-        <h3>Développeurs, Booster ses Performances grâce à l'IA</h3>
+        <h3><code class="training-code">IA-01</code> Développeurs, Booster ses Performances grâce à l'IA</h3>
         <p class="training-meta"><span>Durée : 2 jours (14h)</span> · <span>Niveau : Intermédiaire</span></p>
         <p>Cette formation montre comment intégrer efficacement des outils d'intelligence artificielle dans le quotidien d'un développeur : accélérer la production de code, fiabiliser les livrables générés par l'IA et appliquer des réflexes de cybersécurité adaptés à ces nouveaux usages.</p>
         <ul class="training-objectives">
@@ -440,7 +534,7 @@
 
     <section id="ia-code-assiste" class="training">
       <div class="container">
-        <h3>IA pour Développeurs : Code Assisté et Programmation Intelligente</h3>
+        <h3><code class="training-code">IA-02</code> IA pour Développeurs : Code Assisté et Programmation Intelligente</h3>
         <p class="training-meta"><span>Durée : 2 jours</span> · <span>Niveau : Intermédiaire</span></p>
         <p>Cette formation initie les développeurs à la programmation assistée par IA : prise en main d'assistants de complétion de code, génération de tests et de documentation, revue critique des suggestions produites, et bonnes pratiques de formulation de prompts pour fiabiliser les résultats.</p>
         <ul class="training-objectives">
@@ -455,7 +549,7 @@
 
     <section id="vibe-coding" class="training">
       <div class="container">
-        <h3>Vibe Coding : les Fondamentaux du Développement</h3>
+        <h3><code class="training-code">IA-03</code> Vibe Coding : les Fondamentaux du Développement</h3>
         <p class="training-meta"><span>Durée : 3 jours</span> · <span>Niveau : Débutant</span></p>
         <p>Un parcours d'initiation au code centré sur l'expérimentation : comprendre la logique d'un programme, manipuler des données, construire une mini-application et utiliser l'IA générative comme copilote sans perdre la maîtrise du résultat.</p>
         <ul class="training-objectives">
@@ -470,7 +564,7 @@
 
     <section id="ia-prompt-engineering" class="training">
       <div class="container">
-        <h3>IA Générative : Introduction au Prompt Engineering</h3>
+        <h3><code class="training-code">IA-04</code> IA Générative : Introduction au Prompt Engineering</h3>
         <p class="training-meta"><span>Durée : 2 jours (14h)</span> · <span>Niveau : Fondamental</span></p>
         <p>Une exploration structurée des IA génératives textuelles, de leurs modèles et outils jusqu'aux techniques de prompting, à leur intégration dans les processus de travail et à l'analyse critique de leurs limites.</p>
         <ul class="training-objectives">
@@ -485,7 +579,7 @@
 
     <section id="claude-code-developpeurs" class="training">
       <div class="container">
-        <h3>Claude Code pour Développeurs</h3>
+        <h3><code class="training-code">IA-05</code> Claude Code pour Développeurs</h3>
         <p class="training-meta"><span>Durée : 1 jour (7h)</span> · <span>Niveau : Intermédiaire</span></p>
         <p>Prendre en main Claude Code comme agent de développement en ligne de commande : explorer un dépôt, planifier une modification, générer et refactorer du code, exécuter les contrôles et superviser les actions proposées.</p>
         <ul class="training-objectives">
@@ -500,7 +594,7 @@
 
     <section id="github-copilot-debutant" class="training">
       <div class="container">
-        <h3>GitHub Copilot — Débutant</h3>
+        <h3><code class="training-code">IA-06</code> GitHub Copilot — Débutant</h3>
         <p class="training-meta"><span>Durée : 2 jours (14h)</span> · <span>Niveau : Débutant</span></p>
         <p>Une progression complète de l'installation de GitHub Copilot jusqu'aux premières pratiques de génération, refactoring, documentation et tests, avec une attention constante portée à la vérification humaine du code.</p>
         <ul class="training-objectives">
@@ -515,7 +609,7 @@
 
     <section id="github-copilot-avance" class="training">
       <div class="container">
-        <h3>GitHub Copilot — Niveau Avancé</h3>
+        <h3><code class="training-code">IA-07</code> GitHub Copilot — Niveau Avancé</h3>
         <p class="training-meta"><span>Durée : 1 jour (7h)</span> · <span>Niveau : Avancé</span></p>
         <p>Une journée intensive pour utiliser Copilot sur des tâches complexes : prompting multi-étapes, architecture, tests et mocks, refactoring SOLID, sécurité applicative et intégration dans les workflows de revue et de CI/CD.</p>
         <ul class="training-objectives">
@@ -530,7 +624,7 @@
 
     <section id="copilot-agentic-workflows" class="training">
       <div class="container">
-        <h3>Advanced Copilot &amp; AI Agentic Workflows</h3>
+        <h3><code class="training-code">IA-08</code> Advanced Copilot &amp; AI Agentic Workflows</h3>
         <p class="training-meta"><span>Durée : 4 jours (28h)</span> · <span>Niveau : Avancé</span></p>
         <p>Un cursus intensif associant fondations GenAI, modèles open source, conception de systèmes agentiques et maîtrise pratique de GitHub Copilot sur l'ensemble du cycle de développement logiciel, avec une application approfondie à .NET.</p>
         <ul class="training-objectives">
@@ -545,7 +639,7 @@
 
     <section id="accompagner-integration-ia" class="training">
       <div class="container">
-        <h3>Accompagner ses Équipes dans l'Intégration de l'IA</h3>
+        <h3><code class="training-code">IA-09</code> Accompagner ses Équipes dans l'Intégration de l'IA</h3>
         <p class="training-meta"><span>Durée : 2 jours (14h)</span> · <span>Niveau : Fondamental</span></p>
         <p>Donner aux managers les clés pour comprendre les familles d'IA, mesurer opportunités et risques, conduire le changement, renforcer la confiance numérique et construire une feuille de route d'adoption adaptée à leur organisation.</p>
         <ul class="training-objectives">
@@ -560,7 +654,7 @@
 
     <section id="chatgpt-prise-en-main" class="training">
       <div class="container">
-        <h3>ChatGPT : Prise en Main de l'IA Générative d'OpenAI</h3>
+        <h3><code class="training-code">IA-10</code> ChatGPT : Prise en Main de l'IA Générative d'OpenAI</h3>
         <p class="training-meta"><span>Durée : 3h30</span> · <span>Niveau : Débutant</span></p>
         <p>Une demi-journée opérationnelle pour comprendre le potentiel de ChatGPT, tester ses limites, construire de meilleurs prompts et définir un cadre d'utilisation professionnel respectueux de la confidentialité.</p>
         <ul class="training-objectives">
@@ -575,7 +669,7 @@
 
     <section id="ia-generative-managers" class="training">
       <div class="container">
-        <h3>IA Générative pour Managers</h3>
+        <h3><code class="training-code">IA-11</code> IA Générative pour Managers</h3>
         <p class="training-meta"><span>Durée : 4 jours (28h)</span> · <span>Niveau : Intermédiaire</span></p>
         <p>Un parcours complet qui associe compréhension technique accessible, prise en main des outils, stratégie d'adoption, conduite du changement, pilotage de la performance, réglementation et gouvernance responsable.</p>
         <ul class="training-objectives">
@@ -590,7 +684,7 @@
 
     <section id="ia-product-owner" class="training">
       <div class="container">
-        <h3>IA pour Product Owner</h3>
+        <h3><code class="training-code">IA-12</code> IA pour Product Owner</h3>
         <p class="training-meta"><span>Durée : 1 jour (7h)</span> · <span>Niveau : Fondamental</span></p>
         <p>Une initiation ciblée pour repérer les opportunités IA dans un produit, comprendre le chemin des données au modèle et cadrer une fonctionnalité réaliste sous forme de user story et de critères d'acceptation.</p>
         <ul class="training-objectives">
@@ -605,7 +699,7 @@
 
     <section id="ia-gestion-projet" class="training">
       <div class="container">
-        <h3>Intelligence Artificielle Appliquée à la Gestion de Projet</h3>
+        <h3><code class="training-code">IA-13</code> Intelligence Artificielle Appliquée à la Gestion de Projet</h3>
         <p class="training-meta"><span>Durée : 2 jours</span> · <span>Niveau : Débutant</span></p>
         <p>Découvrir, sans prérequis technique, comment l'IA peut soutenir la planification, le suivi, le reporting et la communication d'un projet à travers des démonstrations et un mini-projet outillé.</p>
         <ul class="training-objectives">
@@ -620,7 +714,7 @@
 
     <section id="ia-ressources-humaines" class="training">
       <div class="container">
-        <h3>IA Générative &amp; Ressources Humaines</h3>
+        <h3><code class="training-code">IA-14</code> IA Générative &amp; Ressources Humaines</h3>
         <p class="training-meta"><span>Durée : 1 jour (7h)</span> · <span>Niveau : Fondamental</span></p>
         <p>Appliquer l'IA aux processus RH, du recrutement à la gestion des talents, tout en maîtrisant la confidentialité, les biais, la non-discrimination et la préparation d'une feuille de route conforme au RGPD.</p>
         <ul class="training-objectives">
@@ -635,7 +729,7 @@
 
     <section id="ia-communication-marketing" class="training">
       <div class="container">
-        <h3>IA Générative pour Communication &amp; Marketing</h3>
+        <h3><code class="training-code">IA-15</code> IA Générative pour Communication &amp; Marketing</h3>
         <p class="training-meta"><span>Durée : 3 jours (21h)</span> · <span>Niveau : Intermédiaire</span></p>
         <p>Maîtriser les fondations et risques des IA génératives, puis les appliquer à la création et à la personnalisation de contenus, à la veille, à l'analyse de tendances et à la production d'une campagne complète.</p>
         <ul class="training-objectives">

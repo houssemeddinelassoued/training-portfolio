@@ -17,6 +17,56 @@ if (navToggle && primaryNav) {
   });
 }
 
+// Keep AI as the first catalog category while preserving each training anchor.
+const aiCategoryHeading = document.getElementById('cat-ia');
+const firstDevelopmentHeading = document.getElementById('cat-conception');
+
+if (aiCategoryHeading && firstDevelopmentHeading) {
+  const aiCategoryNodes = [aiCategoryHeading];
+  let nextNode = aiCategoryHeading.nextElementSibling;
+
+  while (nextNode && nextNode.id !== 'contact') {
+    aiCategoryNodes.push(nextNode);
+    nextNode = nextNode.nextElementSibling;
+  }
+
+  firstDevelopmentHeading.before(...aiCategoryNodes);
+}
+
+// Sidebar toggle for mobile
+const sidebarMenuToggle = document.getElementById('sidebarMenuToggle');
+const sidebarToggle = document.getElementById('sidebarToggle');
+const sidebarNav = document.getElementById('sidebarNav');
+const formationsSidebar = document.querySelector('.formations-sidebar');
+
+if (sidebarMenuToggle && formationsSidebar) {
+  sidebarMenuToggle.addEventListener('click', () => {
+    const isOpen = formationsSidebar.classList.toggle('open');
+    sidebarMenuToggle.setAttribute('aria-expanded', String(isOpen));
+  });
+}
+
+if (sidebarToggle && sidebarNav) {
+  sidebarToggle.addEventListener('click', () => {
+    sidebarNav.parentElement.classList.remove('open');
+    if (sidebarMenuToggle) {
+      sidebarMenuToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  // Close sidebar when clicking a link
+  sidebarNav.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      if (window.innerWidth <= 1024) {
+        formationsSidebar.classList.remove('open');
+        if (sidebarMenuToggle) {
+          sidebarMenuToggle.setAttribute('aria-expanded', 'false');
+        }
+      }
+    });
+  });
+}
+
 // Footer year
 const yearEl = document.getElementById('year');
 if (yearEl) {

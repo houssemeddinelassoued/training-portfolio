@@ -28,7 +28,7 @@ Puis ouvrez `http://localhost:8000`.
 
 ## CV et documents PDF
 
-Tous les fichiers PDF sont ignores par Git via `.gitignore` et ne sont donc pas publies sur GitHub Pages. Le site contient des liens vers `assets/cv/cv.pdf`, mais ce fichier doit etre fourni par un moyen public distinct avant que le telechargement puisse fonctionner en ligne.
+Les fichiers PDF sont ignores par defaut. Seul `assets/cv/CV-HoussemEddineLassoued-2026.pdf` est explicitement publie afin que les boutons de telechargement fonctionnent sur GitHub Pages.
 
 ## Deploiement
 
