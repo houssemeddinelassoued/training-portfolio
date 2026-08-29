@@ -10,6 +10,7 @@ https://houssemeddinelassoued.github.io/training-portfolio/
 ## Contenu
 
 - `index.html` : structure et contenu du portfolio
+- `cv.html` : version Web du CV et lien vers le document complet
 - `styles.css` : styles responsives
 - `script.js` : menu mobile, annee du pied de page et programmes detailles
 - `assets/cv/` : emplacement reserve au CV
@@ -27,7 +28,7 @@ Puis ouvrez `http://localhost:8000`.
 
 ## CV et documents PDF
 
-Tous les fichiers PDF sont intentionnellement ignores par Git via `.gitignore` et ne sont donc pas publies sur GitHub Pages. Le site contient des liens vers `assets/cv/cv.pdf`, mais ce fichier doit etre fourni par un moyen public distinct avant que le telechargement puisse fonctionner en ligne.
+Tous les fichiers PDF sont ignores par Git via `.gitignore` et ne sont donc pas publies sur GitHub Pages. Le site contient des liens vers `assets/cv/cv.pdf`, mais ce fichier doit etre fourni par un moyen public distinct avant que le telechargement puisse fonctionner en ligne.
 
 ## Deploiement
 
