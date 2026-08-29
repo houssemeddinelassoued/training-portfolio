@@ -431,6 +431,44 @@ a {
   color: var(--color-text-light);
 }
 
+.contact-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.btn-whatsapp {
+  color: #fff;
+  background: #16794b;
+}
+
+.btn-whatsapp:hover,
+.btn-whatsapp:focus-visible {
+  color: #fff;
+  background: #11633d;
+}
+
+.contact-cv-link {
+  padding: 0.7rem 0.4rem;
+  color: var(--color-text);
+  font-weight: 700;
+  text-underline-offset: 4px;
+}
+
+@media (max-width: 600px) {
+  .contact-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .contact-actions .btn {
+    width: 100%;
+    overflow-wrap: anywhere;
+  }
+}
+
 /* ===== Footer ===== */
 .site-footer {
   padding: 1.5rem 0;
