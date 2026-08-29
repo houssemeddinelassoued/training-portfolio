@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Formateur — Formations Informatiques</title>
+  <meta name="description" content="Portfolio des formations informatiques dispensées : Programmation objet, Java, Bases de données, UML, Git, Figma, C/C++ et certifications.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#accueil" class="logo">Formateur<span>.</span>Informatique</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="primaryNav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primaryNav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#a-propos">À propos</a></li>
+          <li><a href="#formations">Formations</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="btn-cv" href="assets/cv/cv.pdf" download>Télécharger mon CV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section id="accueil" class="hero">
+      <div class="container">
+        <h1>Formateur Informatique — Développement, Bases de Données &amp; Outils</h1>
+        <p class="hero-subtitle">Je conçois et anime des formations professionnelles en programmation, bases de données, méthodologies et outils de développement, pour tous niveaux.</p>
+        <div class="hero-actions">
+          <a href="#formations" class="btn btn-primary">Voir mes formations</a>
+          <a href="assets/cv/cv.pdf" class="btn btn-secondary" download>Télécharger mon CV (PDF)</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="a-propos" class="about">
+      <div class="container">
+        <h2>À propos</h2>
+        <p>Formateur informatique spécialisé dans la programmation orientée objet, le langage Java, les bases de données relationnelles et les outils de développement modernes (Git, Figma, méthodologies agiles). J'accompagne des publics variés — débutants comme développeurs expérimentés — vers la maîtrise opérationnelle des concepts et des outils, à travers des formations riches en ateliers pratiques.</p>
+      </div>
+    </section>
+
+    <section id="formations" class="formations-intro">
+      <div class="container">
+        <h2>Mes formations</h2>
+        <p>Retrouvez ci-dessous l'ensemble des formations que je peux assurer, organisées par thématique. Chaque formation dispose d'une fiche dédiée avec ses objectifs pédagogiques et un lien vers le programme détaillé.</p>
+
+        <nav class="category-nav" aria-label="Catégories de formations">
+          <ul>
+            <li><a href="#cat-conception">Conception &amp; Modélisation</a></li>
+            <li><a href="#cat-bdd">Bases de données &amp; SQL</a></li>
+            <li><a href="#cat-java">Java</a></li>
+            <li><a href="#cat-certifications">Certifications Java</a></li>
+            <li><a href="#cat-qualite">Qualité &amp; Outils</a></li>
+            <li><a href="#cat-design">Design UX/UI</a></li>
+            <li><a href="#cat-c">Langages C &amp; C++</a></li>
+            <li><a href="#cat-culture">Culture Informatique</a></li>
+            <li><a href="#cat-ia">Intelligence Artificielle</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ===================== CONCEPTION & MODÉLISATION ===================== -->
+    <h2 id="cat-conception" class="category-title container">Conception &amp; Modélisation</h2>
+
+    <section id="programmation-objet" class="training">
+      <div class="container">
+        <h3>Conception et Programmation Objet</h3>
+        <p class="training-meta"><span>Durée : 3 jours</span> · <span>Niveau : Fondamental</span></p>
+        <p>Comprendre l'intérêt et les possibilités offertes par le développement objet par rapport à une approche fonctionnelle. Les participants apprennent à concevoir un modèle de classes pertinent, à respecter les bonnes pratiques de conception (Design Patterns) et à traduire leur travail sous forme de diagramme de classes UML, avec une ouverture sur l'apport de l'IA dans la conception objet.</p>
+        <ul class="training-objectives">
+          <li>Comprendre les principes et spécificités de la conception Objet</li>
+          <li>Passer d'une approche fonctionnelle à une approche Objet</li>
+          <li>Concevoir un modèle de classes pour ses applications</li>
+          <li>Mettre en œuvre les concepts objets à travers un projet fil rouge</li>
+        </ul>
+        <button type="button" class="training-link" data-training="programmation-objet">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <section id="uml" class="training">
+      <div class="container">
+        <h3>UML 2 — Analyse et Conception</h3>
+        <p class="training-meta"><span>Durée : 4 jours</span> · <span>Niveau : Fondamental</span></p>
+        <p>Le langage de modélisation unifié UML propose un langage visuel commun et normalisé pour décrire un système logiciel, principalement en conception orientée objet. Cette formation permet de comprendre et d'utiliser les diagrammes UML les plus pertinents à toutes les étapes d'un projet de développement.</p>
+        <ul class="training-objectives">
+          <li>Comprendre le rôle des différents modèles UML selon les phases d'un projet</li>
+          <li>Exprimer un besoin fonctionnel sous forme de diagramme UML</li>
+          <li>Mettre en œuvre la modélisation UML sur toutes les étapes d'un projet</li>
+          <li>Maîtriser les bonnes pratiques de conception logicielle</li>
+        </ul>
+        <button type="button" class="training-link" data-training="uml">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <!-- ===================== BASES DE DONNÉES & SQL ===================== -->
+    <h2 id="cat-bdd" class="category-title container">Bases de données &amp; SQL</h2>
+
+    <section id="bases-donnees" class="training">
+      <div class="container">
+        <h3>Bases de Données Relationnelles : Conception et Modélisation</h3>
+        <p class="training-meta"><span>Durée : 4 jours</span> · <span>Niveau : Fondamental</span></p>
+        <p>Une synthèse complète des connaissances indispensables en matière de bases de données, du processus de conception à son utilisation effective, avec de nombreux travaux pratiques permettant de manipuler chacun des concepts importants.</p>
+        <ul class="training-objectives">
+          <li>Comprendre les forces et faiblesses d'une base de données relationnelle</li>
+          <li>Suivre le processus de conception logique et physique d'une base</li>
+          <li>Trouver le compromis entre normalisation et non-normalisation</li>
+          <li>Maîtriser les manipulations SQL de base et leur fonctionnement interne</li>
+        </ul>
+        <button type="button" class="training-link" data-training="bases-donnees">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <section id="sql" class="training">
+      <div class="container">
+        <h3>Maîtriser le SQL</h3>
+        <p class="training-meta"><span>Durée : 5 jours</span> · <span>Niveau : Fondamental</span></p>
+        <p>Le langage SQL est incontournable pour interroger et mettre à jour les bases de données. Cette formation explique la structure générale d'un SGBDR et la philosophie du langage afin d'écrire des requêtes simples ou complexes avec naturel, y compris jointures externes et sous-requêtes corrélées.</p>
+        <ul class="training-objectives">
+          <li>Comprendre le schéma d'une base et des tables</li>
+          <li>Écrire des requêtes SQL pour extraire et mettre à jour les données</li>
+          <li>Maîtriser les jointures et leurs variantes ainsi que les requêtes ensemblistes</li>
+          <li>Écrire des requêtes SQL complexes (sous-requêtes corrélées, etc.)</li>
+        </ul>
+        <button type="button" class="training-link" data-training="sql">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <!-- ===================== JAVA ===================== -->
+    <h2 id="cat-java" class="category-title container">Java</h2>
+
+    <section id="java-fondamentaux" class="training">
+      <div class="container">
+        <h3>Java, les Fondamentaux</h3>
+        <p class="training-meta"><span>Durée : 5 jours</span> · <span>Niveau : Fondamental</span></p>
+        <p>Le langage Java est au cœur des applications d'entreprise. Cette formation fait acquérir de solides bases sur le langage et initie progressivement aux API cœurs incontournables (collections, I/O, JDBC, Streams) à travers une application fil rouge.</p>
+        <ul class="training-objectives">
+          <li>Connaître les concepts de base du langage Java et sa syntaxe</li>
+          <li>Utiliser les bibliothèques et API (collections, I/O, JDBC, Streams…)</li>
+          <li>Comprendre les concepts de la programmation orientée objet en Java</li>
+          <li>Créer une application en Java et gérer les erreurs de code</li>
+        </ul>
+        <button type="button" class="training-link" data-training="java-fondamentaux">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <section id="java-avance" class="training">
+      <div class="container">
+        <h3>Java Avancé, Perfectionnement</h3>
+        <p class="training-meta"><span>Durée : 4 jours</span> · <span>Niveau : Avancé</span></p>
+        <p>Permet d'approfondir ses connaissances du langage pour intégrer directement une équipe projet : fonctionnement de la JVM, applications multi-threadées, manipulation de données (JDBC, NIO.2, Streams) et industrialisation avec Gradle ou Maven.</p>
+        <ul class="training-objectives">
+          <li>Maîtriser les aspects avancés du langage Java</li>
+          <li>Comprendre le modèle de sécurité et le chargement des classes Java</li>
+          <li>Programmer en Java dans le contexte des bases de données relationnelles</li>
+          <li>Savoir tester, déboguer et optimiser ses applications</li>
+        </ul>
+        <button type="button" class="training-link" data-training="java-avance">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <section id="java-8" class="training">
+      <div class="container">
+        <h3>Java 8 : Nouveautés de Java 8</h3>
+        <p class="training-meta"><span>Durée : 2 jours</span> · <span>Niveau : Fondamental</span></p>
+        <p>Java 8 a apporté des améliorations significatives au langage. Cette formation présente les expressions lambda, la programmation fonctionnelle et les nouvelles API introduites par cette version majeure.</p>
+        <ul class="training-objectives">
+          <li>S'initier aux principes de la programmation fonctionnelle</li>
+          <li>Maîtriser les expressions lambda et les références de méthodes</li>
+          <li>Mettre en œuvre les Streams pour manipuler des flux de données</li>
+          <li>Comprendre la nouvelle API Date&amp;Time (JSR 310)</li>
+        </ul>
+        <button type="button" class="training-link" data-training="java-8">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <section id="java-11-17" class="training">
+      <div class="container">
+        <h3>Nouveautés de Java 11 et Java 17</h3>
+        <p class="training-meta"><span>Durée : 2 jours</span> · <span>Niveau : Fondamental</span></p>
+        <p>Java 11 et Java 17 sont des versions LTS (Long Term Support) utilisables en production. Cette formation présente, version après version, les nouveautés apportées jusqu'à ces dernières versions LTS (modularité, records, classes scellées, etc.).</p>
+        <ul class="training-objectives">
+          <li>Connaître les nouveautés apportées aux dernières versions LTS de Java</li>
+          <li>Mettre en pratique les nouveautés les plus significatives</li>
+          <li>Comprendre l'impact de la modularité sur les applications</li>
+          <li>Appréhender les records et classes scellées de Java 17</li>
+        </ul>
+        <button type="button" class="training-link" data-training="java-11-17">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <section id="junit" class="training">
+      <div class="container">
+        <h3>Le Framework JUnit</h3>
+        <p class="training-meta"><span>Durée : 2 jours</span> · <span>Niveau : Intermédiaire</span></p>
+        <p>JUnit est le standard de facto pour l'implémentation des tests unitaires et d'intégration des applications Java. Cette formation très pratique permet de maîtriser le framework et d'adopter une méthodologie Test Driven Development.</p>
+        <ul class="training-objectives">
+          <li>Comprendre l'intérêt et les limites des tests unitaires</li>
+          <li>Utiliser JUnit avec ses programmes Java</li>
+          <li>Mettre en œuvre des tests d'intégration</li>
+          <li>Utiliser JUnit dans un contexte d'intégration continue (CI)</li>
+        </ul>
+        <button type="button" class="training-link" data-training="junit">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <section id="javafx" class="training">
+      <div class="container">
+        <h3>JavaFX : Développer des Applications Graphiques Riches</h3>
+        <p class="training-meta"><span>Durée : 3 jours</span> · <span>Niveau : Intermédiaire</span></p>
+        <p>JavaFX est le successeur officiel de Swing et permet de développer des clients riches en simplifiant leur développement grâce au langage FXML et à l'outil SceneBuilder.</p>
+        <ul class="training-objectives">
+          <li>Utiliser les outils de base et les composants d'interface utilisateur</li>
+          <li>Intégrer JavaFX et Swing</li>
+          <li>Mettre en œuvre les threads afin d'améliorer la réactivité de l'IHM</li>
+          <li>Créer des interfaces avec FXML et SceneBuilder</li>
+        </ul>
+        <button type="button" class="training-link" data-training="javafx">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <!-- ===================== CERTIFICATIONS JAVA ===================== -->
+    <h2 id="cat-certifications" class="category-title container">Certifications Java</h2>
+
+    <section id="certification-java-8-niveau-1" class="training">
+      <div class="container">
+        <h3>Certification Java 8 Niveau 1 — Certified Associate Java SE 8 Programmer</h3>
+        <p class="training-meta"><span>Durée : 3 jours</span> · <span>Niveau : Intermédiaire</span></p>
+        <p>Préparation à la certification officielle Oracle Certified Associate, Java SE 8 Programmer, destinée aux développeurs souhaitant valider leurs compétences fondamentales en Java 8.</p>
+        <ul class="training-objectives">
+          <li>Réviser les fondamentaux du langage Java couverts par l'examen</li>
+          <li>S'entraîner sur des questions types de l'examen de certification</li>
+          <li>Identifier les sujets nécessitant un travail complémentaire</li>
+          <li>Augmenter ses chances de réussite à l'examen Oracle</li>
+        </ul>
+        <button type="button" class="training-link" data-training="certification-java-8-niveau-1">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <section id="certification-java-8-niveau-2" class="training">
+      <div class="container">
+        <h3>Certification Java 8 Niveau 2 — Certified Professional, Java SE 8 Programmer</h3>
+        <p class="training-meta"><span>Durée : 2 jours</span> · <span>Niveau : Avancé</span></p>
+        <p>Préparation à la certification Oracle Certified Professional, Java SE 8 Programmer, pour les développeurs ayant déjà validé le niveau associé et souhaitant approfondir leur expertise.</p>
+        <ul class="training-objectives">
+          <li>Approfondir les sujets avancés couverts par l'examen Professional</li>
+          <li>S'entraîner sur des cas pratiques et QCM d'examen</li>
+          <li>Consolider sa stratégie de passage de l'examen</li>
+          <li>Augmenter ses chances de réussite à la certification</li>
+        </ul>
+        <button type="button" class="training-link" data-training="certification-java-8-niveau-2">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <section id="certification-java-11-partie-1" class="training">
+      <div class="container">
+        <h3>Certification Java 11 — Certified Professional Java SE 11 Developer (Partie 1)</h3>
+        <p class="training-meta"><span>Durée : 4 jours</span> · <span>Niveau : Intermédiaire</span></p>
+        <p>Ce cours a pour but de préparer à la certification officielle Oracle Certified Professional, Java SE 11 Developer (1Z0-819), pour les développeurs ayant déjà de bonnes bases en Java.</p>
+        <ul class="training-objectives">
+          <li>Effectuer un choix stratégique pour l'examen 1Z0-819</li>
+          <li>Déterminer les sujets nécessitant une préparation complémentaire</li>
+          <li>S'entraîner sur les thématiques couvertes par la première partie de l'examen</li>
+          <li>Augmenter ses chances de réussir la certification</li>
+        </ul>
+        <button type="button" class="training-link" data-training="certification-java-11-partie-1">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <section id="certification-java-11-partie-2" class="training">
+      <div class="container">
+        <h3>Certification Java 11 — Certified Professional Java SE 11 Developer (Partie 2)</h3>
+        <p class="training-meta"><span>Durée : 4 jours</span> · <span>Niveau : Intermédiaire</span></p>
+        <p>Suite de la préparation à la certification Oracle Certified Professional, Java SE 11 Developer (1Z0-819), couvrant les thématiques complémentaires nécessaires à l'obtention de la certification complète.</p>
+        <ul class="training-objectives">
+          <li>Approfondir les sujets complémentaires de l'examen 1Z0-819</li>
+          <li>S'entraîner sur des exercices et QCM couvrant l'ensemble du programme</li>
+          <li>Consolider sa préparation avant le passage de l'examen</li>
+          <li>Augmenter ses chances de réussir la certification complète</li>
+        </ul>
+        <button type="button" class="training-link" data-training="certification-java-11-partie-2">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <!-- ===================== QUALITÉ & OUTILS ===================== -->
+    <h2 id="cat-qualite" class="category-title container">Qualité &amp; Outils</h2>
+
+    <section id="tdd" class="training">
+      <div class="container">
+        <h3>Optimiser la Qualité du Développement avec Test Driven Development</h3>
+        <p class="training-meta"><span>Durée : 3 jours</span> · <span>Niveau : Fondamental</span></p>
+        <p>Le Test Driven Development (TDD) est une technique de programmation simple, élégante et efficace, basée sur un cycle court : écrire un test, le faire passer, refactorer le code. Elle combine la sécurité des tests automatisés à l'avantage d'une conception modulaire et lisible.</p>
+        <ul class="training-objectives">
+          <li>Connaître les avantages du TDD par rapport aux autres techniques</li>
+          <li>Développer une application simple avec TDD</li>
+          <li>Expliquer et illustrer les principes de cette démarche</li>
+          <li>Appliquer des techniques spécifiques de TDD sur un projet existant</li>
+        </ul>
+        <button type="button" class="training-link" data-training="tdd">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <section id="git" class="training">
+      <div class="container">
+        <h3>GIT : Gestion des Sources avec GIT</h3>
+        <p class="training-meta"><span>Durée : 2 jours</span> · <span>Niveau : Fondamental</span></p>
+        <p>Git est un système de contrôle de versions distribué conçu pour traiter aussi bien de petits que de très gros projets, avec rapidité et efficacité. Cette formation permet de configurer et utiliser Git au quotidien et de choisir un workflow de collaboration adapté à son équipe.</p>
+        <ul class="training-objectives">
+          <li>Connaître le fonctionnement d'un système de contrôle de versions distribué</li>
+          <li>Créer et initialiser un dépôt Git</li>
+          <li>Connaître les workflows et rôles relatifs à la gestion des sources</li>
+          <li>Gérer et organiser les fichiers et les branches Git</li>
+        </ul>
+        <button type="button" class="training-link" data-training="git">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <!-- ===================== DESIGN UX/UI ===================== -->
+    <h2 id="cat-design" class="category-title container">Design UX/UI</h2>
+
+    <section id="figma" class="training">
+      <div class="container">
+        <h3>Figma : Concevoir des Maquettes UX/UI</h3>
+        <p class="training-meta"><span>Durée : 2 jours</span> · <span>Niveau : Fondamental</span></p>
+        <p>Figma se distingue par la capacité de travailler en équipe sur des projets grâce à des modifications en temps réel via un navigateur web. Cette formation permet d'identifier et d'utiliser les différents outils proposés par Figma en toute autonomie.</p>
+        <ul class="training-objectives">
+          <li>Concevoir et modifier ses maquettes directement en ligne</li>
+          <li>Collaborer efficacement entre designers, développeurs et équipes produit</li>
+          <li>Créer des prototypes interactifs pour tester rapidement ses idées</li>
+          <li>Mettre en place un design system évolutif et cohérent</li>
+        </ul>
+        <button type="button" class="training-link" data-training="figma">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <section id="figma-perfectionnement" class="training">
+      <div class="container">
+        <h3>Figma Perfectionnement : Optimiser son Workflow</h3>
+        <p class="training-meta"><span>Durée : 2 jours</span> · <span>Niveau : Intermédiaire</span></p>
+        <p>Cette formation rend les participants autonomes dans la création, la structuration et l'optimisation d'un design system dans Figma : composants avancés, variants, variables, prototypes complexes et Dev Mode pour le partage avec les développeurs.</p>
+        <ul class="training-objectives">
+          <li>Exploiter les dernières nouveautés de Figma</li>
+          <li>Construire un design system optimisé avec collections et variables</li>
+          <li>Optimiser son workflow, du prototype au partage avec les développeurs</li>
+          <li>Intégrer les plugins IA pour gagner en productivité</li>
+        </ul>
+        <button type="button" class="training-link" data-training="figma-perfectionnement">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <section id="photoshop" class="training">
+      <div class="container">
+        <h3>Photoshop : Retouche d'Images et Objets</h3>
+        <p class="training-meta"><span>Durée : 3 jours</span> · <span>Niveau : Fondamental</span></p>
+        <p>Cette formation fournit les concepts et méthodes pour une utilisation efficace d'Adobe Photoshop au quotidien, avec une expérience pratique des techniques de base pour la retouche d'images.</p>
+        <ul class="training-objectives">
+          <li>Maîtriser les fonctions simples de Photoshop</li>
+          <li>Modifier la colorimétrie d'une image et créer des calques</li>
+          <li>Réaliser des retouches photo (transformations, déformations, tampon)</li>
+          <li>Créer des filtres simples</li>
+        </ul>
+        <button type="button" class="training-link" data-training="photoshop">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <!-- ===================== LANGAGES C & C++ ===================== -->
+    <h2 id="cat-c" class="category-title container">Langages C &amp; C++</h2>
+
+    <section id="langage-c" class="training">
+      <div class="container">
+        <h3>Programmation en C</h3>
+        <p class="training-meta"><span>Durée : 5 jours</span> · <span>Niveau : Intermédiaire</span></p>
+        <p>Le langage C reste très utilisé aujourd'hui, notamment dans l'embarqué (système dédié, IoT, drivers). Cette formation permet d'écrire des programmes robustes, portables et conformes à la norme ANSI, tout en donnant de bonnes bases en sécurité du développement.</p>
+        <ul class="training-objectives">
+          <li>Comprendre le fonctionnement de la programmation structurée</li>
+          <li>Maîtriser la syntaxe et les principales fonctions du langage C</li>
+          <li>Écrire un programme C modulaire, portable (ANSI) et maintenable</li>
+          <li>Maîtriser les mécanismes de gestion de la mémoire (pile, pointeurs, sécurité)</li>
+        </ul>
+        <button type="button" class="training-link" data-training="langage-c">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <section id="cpp" class="training">
+      <div class="container">
+        <h3>C++ : Programmation Objet en C++</h3>
+        <p class="training-meta"><span>Durée : 5 jours</span> · <span>Niveau : Intermédiaire</span></p>
+        <p>Le langage C++ a apporté au langage C la dimension objet tout en capitalisant sur ses performances (typage fort, surcharge de fonctions, programmation générique, STL). Cette formation permet de produire un code de qualité respectant les bonnes pratiques professionnelles.</p>
+        <ul class="training-objectives">
+          <li>Comprendre la syntaxe et les concepts fondamentaux du C++</li>
+          <li>Maîtriser les ajouts majeurs des normes C++ (dont C++ 11)</li>
+          <li>Appliquer les principes de la Conception Orientée Objet</li>
+          <li>Manipuler les fichiers et la mémoire de manière sécurisée</li>
+        </ul>
+        <button type="button" class="training-link" data-training="cpp">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <!-- ===================== CULTURE INFORMATIQUE ===================== -->
+    <h2 id="cat-culture" class="category-title container">Culture Informatique</h2>
+
+    <section id="panorama-technologies-informatiques" class="training">
+      <div class="container">
+        <h3>Panorama des Technologies Informatiques</h3>
+        <p class="training-meta"><span>Durée : 4 jours (4 modules d'1 jour)</span> · <span>Niveau : Fondamental</span></p>
+        <p>Un séminaire complet, actualisé, concret et accessible qui permet de dialoguer avec les experts de chaque domaine sans déléguer les échanges dès que le niveau technique s'élève, en abordant successivement le matériel et les systèmes d'exploitation, les réseaux/le web/la sécurité, le développement logiciel et les bases de données, puis le développement web et mobile.</p>
+        <ul class="training-objectives">
+          <li>Matériel et systèmes d'exploitation : décoder le vocabulaire informatique associé</li>
+          <li>Réseaux, Web et Sécurité : comprendre les concepts et technologies impliqués</li>
+          <li>Développement, bases de données et architecture des applications</li>
+          <li>Développement Web et mobile : Front-end, Back-end, API et responsive design</li>
+        </ul>
+        <button type="button" class="training-link" data-training="panorama-technologies-informatiques">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <!-- ===================== INTELLIGENCE ARTIFICIELLE ===================== -->
+    <h2 id="cat-ia" class="category-title container">Intelligence Artificielle pour Développeurs</h2>
+
+    <section id="ia-booster-performances" class="training">
+      <div class="container">
+        <h3>Développeurs, Booster ses Performances grâce à l'IA</h3>
+        <p class="training-meta"><span>Durée : 2 jours (14h)</span> · <span>Niveau : Intermédiaire</span></p>
+        <p>Cette formation montre comment intégrer efficacement des outils d'intelligence artificielle dans le quotidien d'un développeur : accélérer la production de code, fiabiliser les livrables générés par l'IA et appliquer des réflexes de cybersécurité adaptés à ces nouveaux usages.</p>
+        <ul class="training-objectives">
+          <li>Intégrer des outils d'IA dans son flux de travail de développement</li>
+          <li>Automatiser certaines tâches grâce à des assistants IA</li>
+          <li>Évaluer les risques liés à l'usage de l'IA générative en contexte de développement</li>
+          <li>Appliquer de bonnes pratiques de cybersécurité (données sensibles, confidentialité du code)</li>
+        </ul>
+        <button type="button" class="training-link" data-training="ia-booster-performances">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <section id="ia-code-assiste" class="training">
+      <div class="container">
+        <h3>IA pour Développeurs : Code Assisté et Programmation Intelligente</h3>
+        <p class="training-meta"><span>Durée : 2 jours</span> · <span>Niveau : Intermédiaire</span></p>
+        <p>Cette formation initie les développeurs à la programmation assistée par IA : prise en main d'assistants de complétion de code, génération de tests et de documentation, revue critique des suggestions produites, et bonnes pratiques de formulation de prompts pour fiabiliser les résultats.</p>
+        <ul class="training-objectives">
+          <li>Comprendre le fonctionnement des assistants de code basés sur l'IA</li>
+          <li>Utiliser un assistant IA pour accélérer l'écriture, la complétion et la relecture de code</li>
+          <li>Formuler des prompts efficaces pour obtenir des suggestions pertinentes</li>
+          <li>Identifier les limites et les risques d'un usage non maîtrisé de ces outils</li>
+        </ul>
+        <button type="button" class="training-link" data-training="ia-code-assiste">Voir le programme détaillé</button>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Vous souhaitez organiser l'une de ces formations en intra-entreprise ou obtenir davantage d'informations ? N'hésitez pas à me contacter.</p>
+        <a href="assets/cv/cv.pdf" class="btn btn-primary" download>Télécharger mon CV (PDF)</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Formateur Informatique — Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="programModal" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button type="button" class="modal-close" id="modalClose" aria-label="Fermer la fenêtre">&times;</button>
+      <h3 id="modalTitle"></h3>
+      <p class="modal-meta" id="modalMeta"></p>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

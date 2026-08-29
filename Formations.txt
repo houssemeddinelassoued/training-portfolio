@@ -1,0 +1,34 @@
+Voici la liste de formation que je peux assurer, tu trouves la fiche détaillée pour chaque formation et la durée:
+
+[Formation Conception et Programmation objet](https://www.plb.fr/formation/developpement/formation-objet,13-140.php)
+[Formation UML 2 - Analyse et conception](https://www.plb.fr/formation/developpement/formation-uml,13-145.php)
+
+[Formation Bases de données relationnelles : Conception et modélisation](https://www.plb.fr/formation/TELECOM/formation-base-de-donnees,25-29748.php)
+[Formation Maîtriser le SQL](https://www.plb.fr/formation/oracle/formation-maitriser-sql,5-701080.php)
+
+[Formation Java, les fondamentaux](https://www.plb.fr/formation/java/formation-java,1-226.php)
+[Formation Java Avancé, perfectionnement](https://www.plb.fr/formation/java/formation-java-perfectionnement,1-227.php)
+[Formation Java 8 : Nouveautés de Java 8](https://www.plb.fr/formation/java/formation-java-8,1-21218.php)
+[Formation Nouveautés de Java 11 et Java 17](https://www.plb.fr/formation/java/formation-nouveautes-java-9-java-11,1-700793.php)
+[Formation Le framework JUnit](https://www.plb.fr/formation/developpement/formation-junit,13-700780.php)
+[JavaFX : Développer des applications graphiques riches](https://www.plb.fr/formation/java/formation-javafx-8,1-39049.php)
+[Formation Optimiser la qualité du développement avec Test Driven Development](https://www.plb.fr/formation/developpement/formation-test-driven-development,13-700175.php)
+[GIT : Gestion des sources avec GIT](https://www.plb.fr/formation/open-source/formation-git,10-17061.php)
+
+[Formation Figma : Concevoir des maquettes UX/UI à l'aide du logiciel Figma](https://www.plb.fr/formation/TELECOM/formation-figma,25-701214.php)
+[Formation Figma Perfectionnement : Optimiser son workflow et ses fichiers Figma](https://www.plb.fr/formation/TELECOM/formation-figma-perfectionnement,25-701226.php)
+[Photoshop : Retouche d'images et objets](https://www.plb.fr/formation/multimedia/formation-photoshop-retouche-images,16-701478.php)
+
+[Certification Java 8 niveau 1 - Certified Associate Java SE 8 Programmer](https://www.plb.fr/formation/java/formation-certification-java-8,1-546137.php)
+[Certification Java 8 niveau 2 - Certified Professional, Java SE 8 Programmer](https://www.plb.fr/formation/java/formation-certification-java-8,1-700275.php)
+[Certification Java 11 - Certified Professional Java SE 11 Developer - Partie 1](https://www.plb.fr/formation/java/formation-certification-java-11,1-700987.php)
+[Certification Java 11 - Certified Professional Java SE 11 Developer - Partie 2](https://www.plb.fr/formation/java/formation-java-se-11-developer,1-701219.php)
+
+[Formation Programmation en C](https://www.plb.fr/formation/developpement/formation-c,13-147.php)
+[Formation C++ : Programmation objet en C++](https://www.plb.fr/formation/developpement/formation-c-plus-plus,13-149.php)
+
+Regroupe les 4 suivant en une seule formation : 
+[Panorama 2022 des technologies informatiques (1/4) : Matériel et systèmes d’exploitation](https://www.plb.fr/formation/management-informatique/formation-technologie-informatique,19-29761.php)
+[Panorama 2022 des technologies informatiques (2/4) : Les Réseaux, Le Web et la Sécurité](https://www.plb.fr/formation/management-informatique/formation-technologie-informatique,19-29793.php)
+[Panorama 2022 des technologies informatiques (3/4) : Développement,base de données, et architecture des applications](https://www.plb.fr/formation/management-informatique/formation-developpement-logiciel,19-29829.php)
+[Panorama 2022 des technologies informatiques (4/4) : Développement WEB et mobiles](https://www.plb.fr/formation/management-informatique/formation-developpement-mobile-et-web,19-29837.php)

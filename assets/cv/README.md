@@ -1,0 +1,6 @@
+# CV PDF
+
+Placez ici votre fichier CV au format PDF, nommé exactement `cv.pdf`.
+
+Le lien "Télécharger mon CV" du site pointe vers `assets/cv/cv.pdf`.
+Ce fichier PDF n'est pas fourni automatiquement — ajoutez le vôtre dans ce dossier.
