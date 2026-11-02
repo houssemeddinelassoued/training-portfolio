@@ -766,13 +766,40 @@ document.querySelectorAll('.training-link[data-training]').forEach((button) => {
   button.addEventListener('click', () => openModal(button));
 });
 
-modalClose.addEventListener('click', closeModal);
+if (modal && modalClose) {
+  modalClose.addEventListener('click', closeModal);
 
-modal.addEventListener('click', (event) => {
-  if (event.target === modal) closeModal();
-});
+  modal.addEventListener('click', (event) => {
+    if (event.target === modal) closeModal();
+  });
 
-document.addEventListener('keydown', (event) => {
-  if (event.key === 'Escape' && !modal.hidden) closeModal();
-});
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && !modal.hidden) closeModal();
+  });
+}
 
+
+// Profile photo lightbox
+const photoOpen = document.getElementById('photoOpen');
+const photoLightbox = document.getElementById('photoLightbox');
+const photoClose = document.getElementById('photoClose');
+
+if (photoOpen && photoLightbox) {
+  const closePhoto = () => {
+    photoLightbox.hidden = true;
+    document.body.style.overflow = '';
+    photoOpen.focus();
+  };
+  photoOpen.addEventListener('click', () => {
+    photoLightbox.hidden = false;
+    document.body.style.overflow = 'hidden';
+    photoClose.focus();
+  });
+  photoClose.addEventListener('click', closePhoto);
+  photoLightbox.addEventListener('click', (e) => {
+    if (e.target === photoLightbox) closePhoto();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !photoLightbox.hidden) closePhoto();
+  });
+}

@@ -41,7 +41,13 @@
           </div>
         </div>
         <aside class="cv-profile-panel" aria-label="Profil en bref">
-            <img class="cv-photo" src="assets/Houssem-2026-bleu.jpg" alt="Portrait de Houssem Eddine Lassoued en chemise bleue" width="1856" height="2304" fetchpriority="high">
+            <button type="button" class="cv-photo-btn" id="photoOpen" aria-haspopup="dialog" aria-label="Agrandir la photo de profil">
+            <img class="cv-photo" src="assets/Houssem-2026-noir.jpg" alt="Portrait de Houssem Eddine Lassoued" fetchpriority="high">
+          </button>
+          <div class="photo-lightbox" id="photoLightbox" role="dialog" aria-modal="true" aria-label="Photo de profil" hidden>
+            <button type="button" class="photo-close" id="photoClose" aria-label="Fermer">&times;</button>
+            <img src="assets/Houssem-2026-noir.jpg" alt="Portrait de Houssem Eddine Lassoued">
+          </div>
           <dl class="cv-quick-facts">
             <div><dt>Fonctions</dt><dd>CEO, consultant, formateur et chercheur</dd></div>
             <div><dt>Spécialités</dt><dd>IA générative, développement logiciel, transformation digitale</dd></div>
